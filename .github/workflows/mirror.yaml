@@ -18,11 +18,11 @@ on:
       TARGET_REGISTRY:
         description: '仓库地址'
         required: true
-        default: 'registry.cn-hangzhou.aliyuncs.com'
+        default: 'crpi-ssav4d52dwk7jp88.cn-hangzhou.personal.cr.aliyuncs.com'
       TARGET_REPOSITORY:
         description: '空间名称'
         required: true
-        default: 'dockerhub_mirror'
+        default: 'lviangjun_dockerhub_mirror'
 
 jobs:
   build:
